@@ -79,12 +79,11 @@ header {
                 font-size: 12px;
                 line-height: 1.024;
                 span {
-                    &:nth-child(1) {
-                        font-size: 27px;
-                    }
-                    .sale-only {
+                    text-transform: uppercase;
+                    font-size: 27px;
+                    &:nth-child(2){
                         letter-spacing: .5em;
-                        font-size: 24px;
+                        font-size: 27px;
                     }
                 }
             }
